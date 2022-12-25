@@ -50,6 +50,7 @@ function App() {
 
     addMarker();
 
+
     return () => map.remove();
   }, [longitude, latitude]);
 
